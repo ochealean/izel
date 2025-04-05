@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("izel2bg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: url('flower1.png'), auto;
+}
+th {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(82, 0, 158);
+  text-align: center;
+}
+td {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: rgba(192, 124, 255, 0.493);
+  text-align: center;
+}
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+p{
+    font-size: 30px;
+    color: white;
+}
+
+li{
+    font-size: 20px;
+    color: white;
+}
+
+.listgroups{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(82, 0, 158, 0.534);
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 25%;
+    border-radius: 0px 0px 20px 20px;
+}
+
+table{
+    border-radius: 20px 20px 0px 0px;
+}
+
+.backbtn{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    cursor: url('flower1.png'), auto;
+}
+
+.list_individual
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
